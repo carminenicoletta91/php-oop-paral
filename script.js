@@ -2,7 +2,7 @@ function init(){
   console.log("Hello World");
   getmyparalle();
   $(".valori-somme").show();
-  
+
 }
 $(document).ready(init);
 function getmyparalle(){
@@ -68,7 +68,4 @@ function sumVolume(data){
     volume+=d.Volume;
   }
   return volume;
-}
-function printsumareaandvolume(){
-  $(".area-totale").html(sumArea(data));
 }
